@@ -1,0 +1,14 @@
+/* @import 'core/variables';
+@import 'core/reset';
+@import 'components/code';
+@import 'components/links';
+@import 'layout/page';
+@import 'layout/header';
+@import 'layout/footer';
+@import 'pages/index';
+ */
+
+@import '/src/scss/layout/header';
+@import '/src/scss/layout/main-1';
+@import '/src/scss/layout/main-2';
+@import '/src/scss/layout/footer';
