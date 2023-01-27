@@ -1,0 +1,26 @@
+.footer {
+    background-color: $color-neutral2;
+    padding: 1rem;
+
+    .icon-header {
+        background-color: $color-neutral;
+        display: block;
+        width: 35px;
+        height: 35px;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        bottom: 35px;
+        left: 45%;
+    }
+
+    .container1 {
+        display: flex;
+
+        .text-footer {
+            list-style: none;
+        }
+    }
+}
