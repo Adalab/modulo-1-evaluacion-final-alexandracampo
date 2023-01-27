@@ -1,6 +1,11 @@
 .hero {
-    height: 100vh;
-    position: relative;
+    width: auto;
+    height: auto;
+    overflow: hidden;
+
+    .image-hero {
+        height: 100vh;
+    }
 }
 
 .menu-header {
