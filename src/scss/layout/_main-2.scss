@@ -2,15 +2,28 @@
     background-color: $color-neutral1;
     width: 100%;
     margin: 0;
+    padding: 0.7rem;
 
     .title-main2 {
         margin: 2.5rem 2.5rem 1rem 2.5rem;
-        padding: 20px;
+        padding: 10px;
         font-family: "roboto slab", sans-serif;
         font-size: 20px;
         font-weight: bold;
         line-height: 1.5;
         text-align: center;
+    }
+
+    @media all and (min-width: 768px) and (max-width: 1280px) {
+        .title-main2 {
+            font-size: 28px;
+        }
+    }
+
+    @media all and (min-width: 1280px) {
+        .title-main2 {
+            font-size: 32px;
+        }
     }
 
     .main2__box {
@@ -35,6 +48,19 @@
                 font-weight: normal;
                 line-height: 1.67;
                 text-align: center;
+
+            }
+
+            @media all and (min-width: 768px) {
+
+                .main2__box__box__h3 {
+                    font-size: 24px;
+                }
+
+                .main2__box__box__p {
+                    font-size: 20px;
+                    margin: 1rem;
+                }
             }
         }
     }
@@ -45,14 +71,17 @@
             display: grid;
             grid-template-columns: 1fr 1fr 1fr;
             grid-template-rows: 1fr;
+            margin: 1rem;
+        }
+    }
 
-            .main2__box__box {}
+    @media all and (min-width: 1280px) {
 
-
-            .main2__box__box__h3 {}
-
-            .main2__box__box__p {}
-
+        .main2__box {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-template-rows: 1fr;
+            margin: rem;
         }
     }
 
@@ -73,7 +102,7 @@
             font-weight: 500;
             line-height: 2.25;
             text-align: center;
-            margin: 10px 25px 10px 25px;
+            margin: 25px 25px 25px 25px;
             width: 180px;
             height: 43px;
             margin-bottom: 2.7rem;
