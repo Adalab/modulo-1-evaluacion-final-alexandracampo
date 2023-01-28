@@ -15,7 +15,9 @@
 
     .main2__box {
         display: grid;
+        grid-template-columns: 1fr;
         grid-template-rows: 1fr 1fr 1fr;
+
 
         .main2__box__box {
             margin: 1rem;
@@ -34,6 +36,23 @@
                 line-height: 1.67;
                 text-align: center;
             }
+        }
+    }
+
+    @media all and (min-width: 768px) and (max-width: 1280px) {
+
+        .main2__box {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-template-rows: 1fr;
+
+            .main2__box__box {}
+
+
+            .main2__box__box__h3 {}
+
+            .main2__box__box__p {}
+
         }
     }
 

@@ -6,6 +6,12 @@
     .image-hero {
         height: 100vh;
     }
+
+    @media all and (min-width: 1280px) {
+        .image-hero {
+            width: 100vw;
+        }
+    }
 }
 
 .menu-header {
@@ -36,24 +42,55 @@
         font-family: 'Roboto Slab', serif;
         text-align: center;
         padding: 0.5rem;
+        font-size: 30px;
+        line-height: 1.67;
+
     }
 
     .boxhero__text {
         color: $color-neutral;
-        font-family: 'Roboto', sans-serif;
+        font-family: "Roboto", sans-serif;
         text-align: center;
         padding: 0.5rem;
+        font-size: 16px;
+        line-height: 1.19;
+
     }
 
     .boxhero__scroll {
+        height: 40px;
+        width: 40px;
         background-color: $color-neutral;
         border-radius: 100%;
         display: flex;
+        justify-content: center;
         align-content: center;
-        /* margin: 1rem;
-        padding: 0.8rem; */
-        padding: 1rem;
         margin: 1rem;
     }
 
+    @media all and (min-width: 768px) and (max-width: 1280px) {
+
+        .boxhero__title {
+            font-size: 75px;
+            line-height: 1.33;
+        }
+
+        .boxhero__text {
+            font-size: 24px;
+            line-height: 1.17;
+        }
+    }
+
+    @media all and (min-width: 1280px) {
+
+        .boxhero__title {
+            font-size: 100px;
+            line-height: 1.33;
+        }
+
+        .boxhero__text {
+            font-size: 24px;
+            line-height: 1.17;
+        }
+    }
 }
