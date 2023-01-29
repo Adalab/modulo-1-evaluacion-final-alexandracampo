@@ -43,47 +43,65 @@
 
         }
 
+        @media all and (min-width: 768px) {
+            .container1 {
+
+                text-align: left;
+            }
+        }
+
         .container2 {
             justify-content: center;
             align-items: center;
             margin: 1rem;
-            flex-grow: 0.3;
+
+            .text-footer-rrss {
+                list-style: none;
+                color: $color-neutral;
+                font-family: "Roboto-regular", sans-serif;
+                font-size: 1rem;
+                line-height: 1.88;
+            }
 
         }
 
-        .text-footer-rrss {
-            list-style: none;
+        @media all and (min-width: 768px) {
+            .container2 {
+
+                text-align: left;
+            }
+        }
+
+        .container3 {
             color: $color-neutral;
             font-family: "Roboto-regular", sans-serif;
-            font-size: 1rem;
-            line-height: 1.88;
+            justify-content: center;
+            align-items: center;
+            margin: 1rem 1rem 2.5rem 1rem;
+
+            .copyright {
+                margin-bottom: 0.3rem;
+            }
+
+            .icon-footer {
+                color: $color-neutral;
+            }
+        }
+
+        @media all and (min-width: 768px) {
+            .container3 {
+                text-align: left;
+                order: -1;
+            }
         }
     }
 
-    .container3 {
-        color: $color-neutral;
-        font-family: "Roboto-regular", sans-serif;
-        justify-content: center;
-        align-items: center;
-        margin: 1rem 1rem 2.5rem 1rem;
-
-        .copyright {
-            margin-bottom: 0.3rem;
-        }
-
-        .icon-footer {
-            color: $color-neutral;
-        }
-    }
-
-    @media all and (min-width: 768px) and (max-width: 1280px) {
+    @media all and (min-width: 768px) {
         .container-footer {
             display: flex;
             flex-direction: row;
-            align-items: center;
-            flex-wrap: wrap;
-            align-content: center;
-
+            align-items: baseline;
+            gap: 4rem;
         }
     }
 }
