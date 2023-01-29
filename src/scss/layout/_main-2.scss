@@ -4,7 +4,7 @@
     margin: 0;
     padding: 0.7rem;
 
-    .title-main2 {
+    .main2-title {
         margin: 2.5rem 2.5rem 1rem 2.5rem;
         padding: 10px;
         font-family: "roboto slab", sans-serif;
@@ -15,34 +15,34 @@
     }
 
     @media all and (min-width: 768px) and (max-width: 1280px) {
-        .title-main2 {
+        .main2-title {
             font-size: 28px;
         }
     }
 
     @media all and (min-width: 1280px) {
-        .title-main2 {
+        .main2-title {
             font-size: 32px;
         }
     }
 
-    .main2__box {
+    .main2-container {
         display: grid;
         grid-template-columns: 1fr;
         grid-template-rows: 1fr 1fr 1fr;
 
 
-        .main2__box__box {
+        .main2-box {
             margin: 1rem;
 
-            .main2__box__box__h3 {
+            .main2-box-h3 {
                 font-family: "roboto slab", sans-serif;
                 font-size: 18px;
                 line-height: 1.67;
                 text-align: center;
             }
 
-            .main2__box__box__p {
+            .main2-box-p {
                 font-family: "roboto-regular", sans-serif;
                 font-size: 18px;
                 font-weight: normal;
@@ -53,11 +53,11 @@
 
             @media all and (min-width: 768px) {
 
-                .main2__box__box__h3 {
+                .main2-box-h3 {
                     font-size: 24px;
                 }
 
-                .main2__box__box__p {
+                .main2-box-p {
                     font-size: 20px;
                     margin: 1rem;
                 }
@@ -67,21 +67,21 @@
 
     @media all and (min-width: 768px) and (max-width: 1280px) {
 
-        .main2__box {
+        .main2-container {
             display: grid;
-            grid-template-columns: 1fr 1fr 1fr;
+            grid-template-columns: 250px 250px 250px;
             grid-template-rows: 1fr;
-            margin: 1rem;
+            justify-content: center;
         }
     }
 
     @media all and (min-width: 1280px) {
 
-        .main2__box {
+        .main2-container {
             display: grid;
-            grid-template-columns: 1fr 1fr 1fr;
+            grid-template-columns: 450px 450px 450px;
             grid-template-rows: 1fr;
-            margin: rem;
+            justify-content: center;
         }
     }
 

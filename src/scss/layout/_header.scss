@@ -14,16 +14,25 @@
     }
 }
 
-.menu-header {
+.menu-header-box {
     background-color: $color-highlight;
-    height: 2.2rem;
-    width: 2.2rem;
-    padding: 0.5rem;
+    height: 2.5rem;
+    width: 2.5rem;
     display: flex;
     justify-content: center;
-    position: absolute;
+    align-items: center;
+    position: fixed;
     top: 0;
+
+    .menu-header {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 1.5rem;
+        height: 1.5rem
+    }
 }
+
 
 .boxhero {
     background-color: opacity($color: #000000);
