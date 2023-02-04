@@ -41,7 +41,7 @@
             }
 
             .text-footer {
-
+                text-transform: uppercase;
                 color: $color-neutral;
                 font-family: "Roboto-regular", sans-serif;
                 font-size: 1rem;
@@ -68,6 +68,7 @@
 
 
             .text-footer-rrss {
+                text-transform: uppercase;
                 list-style: none;
                 color: $color-neutral;
                 font-family: "Roboto-regular", sans-serif;

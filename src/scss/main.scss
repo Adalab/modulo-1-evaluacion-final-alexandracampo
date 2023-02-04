@@ -4,15 +4,16 @@
     padding: 0;
 }
 
-// colors
-$color-highlight: #f26002;
-$color-neutral: #ffffff;
-$color-neutral1: #f2f2f2;
-$color-neutral2: #4a4a4a;
 
 // partials styles
-@import './layout/header';
-@import './layout/main-1';
-@import './layout/main-2';
-@import './layout/footer';
-@import './core/variables';
+/* @import '/src/scss/layout/header';
+@import '/src/scss/layout/main-1;
+@import '/src/scss/layout/main-2';
+@import '/src/scss/layout/footer';
+@import '/src/scss/layout/variables'; */
+
+@import 'core/variables';
+@import 'layout/header';
+@import 'layout/main-1';
+@import 'layout/main-2';
+@import 'layout/footer';
